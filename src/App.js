@@ -32,7 +32,7 @@ function App() {
         }}
       />
       <Navbar />
-      
+      <SocialContacts/>
 
       <Header />
       <AboutMe/>
