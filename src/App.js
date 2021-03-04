@@ -32,7 +32,10 @@ function App() {
         }}
       />
       <Navbar />
-  
+      
+
+      <Header />
+     
     </>
   );
 }
