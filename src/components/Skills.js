@@ -2,11 +2,16 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop, faFileCode, faToolbox } from "@fortawesome/free-solid-svg-icons";
+import FadeIn from 'react-fade-in';
+import Zoom from 'react-reveal/Zoom';
+import Pulse from 'react-reveal/Pulse';
+
 
 const Skills = () => {
   return (
     <div className="services container-fluid">
       <h1 className="py-5">Skills</h1>
+      
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-12 col-sm-12">
@@ -38,6 +43,7 @@ const Skills = () => {
          
         </div>
       </div>
+      
     </div>
 
   )

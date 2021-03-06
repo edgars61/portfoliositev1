@@ -6,10 +6,14 @@ import Header from "./components/Header";
 import AboutMe from './components/AboutMe';
 import SocialContacts from './components/SocialContact';
 import Skills from './components/Skills';
+import FadeIn from 'react-fade-in';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
     <>
+  
       <Particles
         className="particles-canvas"
         params={{
@@ -31,12 +35,18 @@ function App() {
           }
         }}
       />
+      <FadeIn>
       <Navbar />
-      <SocialContacts/>
-
       <Header />
+      
+      <SocialContacts/>
+      </FadeIn>
       <AboutMe/>
+      
       <Skills/>
+      
+    
+      
     </>
   );
 }
