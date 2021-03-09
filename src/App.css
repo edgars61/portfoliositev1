@@ -303,3 +303,41 @@ nav ul li {
       width: 100%;
     }
   }
+
+
+  /******************************PORTFOLIO********************************************************************/
+
+  .portfolio-wrapper h1{
+    color:var(--primary-white);
+  }
+  .portfolio-wrapper{
+    background-color: var(--secondary-black);
+    padding: 3rem 0;
+
+  }
+  .portfolio-image{
+    width: 15rem;
+    border: 1px solid var(--primary-purple);
+    padding: 0 0.rem;
+  }
+
+  .portfolio-image-box{
+    position: relative;
+    margin: 1rem;
+    
+  }
+
+  /******************************OVERFLOW********************************************************************/
+  .overflow{
+    position: absolute;
+    opacity: 0;
+    background: var(--primary-black);
+    width: 15rem;
+    height: 8rem;
+    top: 0;
+    border: 1px solid var(--primary-purple);
+    cursor: pointer;
+
+
+
+  }
