@@ -1,10 +1,13 @@
 import React from "react";
 import me from '../1606011490819.jfif';
+import Reveal from 'react-reveal/Reveal';
+
 
 
 
 const AboutMe = () => {
   return (
+
     <div className="container-fluid py-5 aboutMe">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
@@ -13,7 +16,11 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-lg-4 col-xm-12 AboutMeParagraph">
-          <h1 className="about-heading">about me</h1>
+       
+
+<h1 className="about-heading ">about me</h1>
+
+          
           <p>
           Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
           turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero 
@@ -23,6 +30,8 @@ const AboutMe = () => {
         </div>
       </div>
     </div>
+
+   
   )
 }
 

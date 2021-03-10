@@ -8,8 +8,8 @@ import SocialContacts from './components/SocialContact';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import FadeIn from 'react-fade-in';
-import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
+
+
 
 
 function App() {
@@ -43,7 +43,11 @@ function App() {
       
       <SocialContacts/>
       </FadeIn>
+      
       <AboutMe/>
+    
+      
+   
       
       <Skills/>
       <Portfolio/>
