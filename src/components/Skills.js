@@ -18,7 +18,7 @@ const Skills = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
               <h3>Languages</h3>
-              <p>Python, JavaScript, CSS/Sass, Java</p>
+              <p>Python, JavaScript, CSS/Sass, Javassssss</p>
             </div>
           </div>
           {/* - */}
