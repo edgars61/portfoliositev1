@@ -369,9 +369,9 @@ nav ul li {
   }
 
   .popupbox-wrapper {
-    margin-top: 7rem;
+  
     background-color: var(--tertiary-black) !important;
-    color: white;
+    color: var(--primary-white);
   }
   
 
@@ -405,4 +405,45 @@ nav ul li {
 
 .hyper-link:hover b{
   color: var(--primary-white) !important;
+}
+
+/*********************************MEDIA********************************************/
+
+@media(max-width: 768px){
+
+  .portfolio-image-popupbox{
+
+    width: 100%;
+    margin: 0;
+
+  }
+
+}
+
+@media(max-height: 570px){
+  .popupbox-wrapper{
+    height: 100% !important;
+  }
+
+  .portfolio-image-popupbox{
+
+    width: 50%;
+    margin: 0;
+
+  }
+
+}
+
+@media(max-height: 280px){
+  .popupbox-wrapper{
+    height: 90% !important;
+  }
+
+  .portfolio-image-popupbox{
+
+    width: 30%;
+    margin: 0;
+
+  }
+
 }
