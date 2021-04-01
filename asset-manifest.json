@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a9d1377.chunk.css",
-    "main.js": "/static/js/main.a6bff9f2.chunk.js",
-    "main.js.map": "/static/js/main.a6bff9f2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ca0aced5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ca0aced5.js.map",
-    "static/css/2.a7c571b0.chunk.css": "/static/css/2.a7c571b0.chunk.css",
-    "static/js/2.95b0b92a.chunk.js": "/static/js/2.95b0b92a.chunk.js",
-    "static/js/2.95b0b92a.chunk.js.map": "/static/js/2.95b0b92a.chunk.js.map",
-    "static/js/3.8f94999c.chunk.js": "/static/js/3.8f94999c.chunk.js",
-    "static/js/3.8f94999c.chunk.js.map": "/static/js/3.8f94999c.chunk.js.map",
+    "main.css": "/static/css/main.d5f00fe3.chunk.css",
+    "main.js": "/static/js/main.534a3b99.chunk.js",
+    "main.js.map": "/static/js/main.534a3b99.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.49236db5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.49236db5.js.map",
+    "static/css/2.399a5012.chunk.css": "/static/css/2.399a5012.chunk.css",
+    "static/js/2.e3389b63.chunk.js": "/static/js/2.e3389b63.chunk.js",
+    "static/js/2.e3389b63.chunk.js.map": "/static/js/2.e3389b63.chunk.js.map",
+    "static/js/3.60a565f5.chunk.js": "/static/js/3.60a565f5.chunk.js",
+    "static/js/3.60a565f5.chunk.js.map": "/static/js/3.60a565f5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.a7c571b0.chunk.css.map": "/static/css/2.a7c571b0.chunk.css.map",
-    "static/css/main.2a9d1377.chunk.css.map": "/static/css/main.2a9d1377.chunk.css.map",
-    "static/js/2.95b0b92a.chunk.js.LICENSE.txt": "/static/js/2.95b0b92a.chunk.js.LICENSE.txt",
+    "static/css/2.399a5012.chunk.css.map": "/static/css/2.399a5012.chunk.css.map",
+    "static/css/main.d5f00fe3.chunk.css.map": "/static/css/main.d5f00fe3.chunk.css.map",
+    "static/js/2.e3389b63.chunk.js.LICENSE.txt": "/static/js/2.e3389b63.chunk.js.LICENSE.txt",
     "static/media/1606011490819.617a7b5e.jfif": "/static/media/1606011490819.617a7b5e.jfif",
     "static/media/city-guide-app.e4843bd0.png": "/static/media/city-guide-app.e4843bd0.png",
     "static/media/logo4.2e0bb7db.png": "/static/media/logo4.2e0bb7db.png",
+    "static/media/App.css": "/static/media/memphis.21dcf6f0.png",
+    "static/media/mockup6.7927bd35.png": "/static/media/mockup6.7927bd35.png",
     "static/media/netflix.5a78c4b9.png": "/static/media/netflix.5a78c4b9.png",
     "static/media/portfolio.e4d369bc.png": "/static/media/portfolio.e4d369bc.png",
-    "static/media/task-manager.7cdcc29e.png": "/static/media/task-manager.7cdcc29e.png",
-    "static/media/App.css": "/static/media/wall-and-laptop-background.f9e274f4.jpg"
+    "static/media/task-manager.7cdcc29e.png": "/static/media/task-manager.7cdcc29e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca0aced5.js",
-    "static/css/2.a7c571b0.chunk.css",
-    "static/js/2.95b0b92a.chunk.js",
-    "static/css/main.2a9d1377.chunk.css",
-    "static/js/main.a6bff9f2.chunk.js"
+    "static/js/runtime-main.49236db5.js",
+    "static/css/2.399a5012.chunk.css",
+    "static/js/2.e3389b63.chunk.js",
+    "static/css/main.d5f00fe3.chunk.css",
+    "static/js/main.534a3b99.chunk.js"
   ]
 }
