@@ -8,35 +8,16 @@ import SocialContacts from './components/SocialContact';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import FadeIn from 'react-fade-in';
+import Footer from './components/Footer';
 
 
 
 
 function App() {
   return (
-    <>
+
+<>
   
-      <Particles
-        className="particles-canvas"
-        params={{
-          particles: {
-            number: {
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900
-              }
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 6,
-                color: "#8739F9"
-              }
-            }
-          }
-        }}
-      />
       <FadeIn>
       <Navbar />
       <Header />
@@ -51,6 +32,11 @@ function App() {
       
       <Skills/>
       <Portfolio/>
+      <Footer/>
+    
+    
+   
+      
       
     
       

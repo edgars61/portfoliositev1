@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
 :root {
-  --primary-white: #fff;
+
+  --primary-white: 255, 255, 255;
   --primary-purple: #8739F9;
   --secondary-purple: #C651CD;
   --primary-text: #363636;
@@ -13,7 +15,7 @@
 }
 
 body,html {
-font-family: "Roboto Condensed", sans-serif !important;
+font-family: 'Cabin', sans-serif !important;
 background-color: var(--primary-black) !important;
 }
 
@@ -30,7 +32,7 @@ nav {
  
 }
 .navbar-custom{
-  background-color: var(--primary-black) !important;
+  background-color: black !important;
 }
 /*----- MENU LINKS --------*/
 nav a.nav-link {
@@ -38,6 +40,18 @@ nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
+nav a.nav-icon {
+  font-size: 1.50rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  color: rgba(var(--primary-white),0.96) !important;
+}
+nav a.nav-icon:hover {
+ 
+  cursor: pointer;
+  color: var(--primary-purple) !important;
+}
+
 
 nav ul li {
   text-transform: uppercase;
@@ -46,7 +60,7 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
+  color: rgba(var(--primary-white),0.96) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
@@ -75,11 +89,11 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background: url(memphis.png) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
-  color: var(--primary-white);
+  color: rgba(var(--primary-white),0.96) !important;
 }
 
 .main-info {
@@ -96,12 +110,9 @@ nav ul li {
   z-index: 1;
 }
 
-.main-info h3 {
-  color: var(--primary-green);
 
-}
 .main-info h1,h2 {
-  color: var(--primary-white);
+  color: rgba(var(--my-color-rgb), 0.96);
 
 }
 
@@ -120,7 +131,7 @@ nav ul li {
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white);
+  color: rgba(var(--primary-white),0.96) !important;
 }
 
 @media(max-width: 768px) {
@@ -140,7 +151,7 @@ nav ul li {
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: rgba(var(--primary-white),0.96) !important;
   margin: 2rem;
   border-radius: 8px;
 }
@@ -173,7 +184,7 @@ nav ul li {
   background-color: var(--secondary-black);
 }
 .AboutMeParagraph{
-  color:var(--primary-white);
+  color: rgba(var(--primary-white),0.67) !important;
 }
 .photo-wrap{
   display: flex;
@@ -189,7 +200,8 @@ nav ul li {
   border: 1px solid var(--primary-purple);
 }
 .about-heading{
-  color: var(--primary-white);
+  color: rgba(var(--primary-white),0.96);
+ 
   text-transform: uppercase;
 
 }
@@ -210,7 +222,7 @@ nav ul li {
 }
 
 .services h1 {
-  color: var(--primary-white);
+  color: rgba(var(--primary-white),0.96) !important;
   text-transform: uppercase;
 }
 
@@ -221,11 +233,12 @@ nav ul li {
   border-radius: 50%;
   width: 3.125rem;
   height: 3.125rem;
+  
 }
 
 .services .icon {
   font-size: 1.4rem;
-  color: var(--primary-white);
+  color: rgba(var(--primary-white),0.96) !important;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -238,15 +251,22 @@ nav ul li {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-text);
-  color: var(--primary-white);
-  border-radius: 16px;
+  
+
+}
+.services h3{
+  color: rgba(var(--primary-white),0.96) !important;
+}
+.services p{
+  color: rgba(var(--primary-white),0.67) !important;
+  
 }
 
 
 
 /*FLOATING SOCIAL MEDIA CONTACTS*/
 .TypedText{
-  color: white;
+  color: rgba(var(--primary-white),0.96) !important;
 }
 .socialZoom{
 
@@ -257,7 +277,7 @@ nav ul li {
   z-index: 3 !important;
   position: fixed;
   top: 15%;
-  color: white;
+  color: rgba(var(--primary-white),0.96) !important;
   animation: fadeIn 0s 0.6s !important;
 }
 
@@ -267,13 +287,13 @@ nav ul li {
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
-  color: var(--primary-white);
+  color: rgba(var(--primary-white),0.96) !important;
   size: 1.75em;
 
 }
 
 .SocialMedias a:hover{
-  color: var(--primary-purple);
+  color: var(--primary-purple) !important;
 }
 
 @media only screen and (max-width: 993px) {
@@ -308,7 +328,7 @@ nav ul li {
   /******************************PORTFOLIO********************************************************************/
 
   .portfolio-wrapper h1{
-    color:var(--primary-white);
+    color: rgba(var(--primary-white),0.96) !important;
   }
   .portfolio-wrapper{
     background-color: var(--secondary-black);
@@ -319,6 +339,7 @@ nav ul li {
     width: 15rem;
     border: 1px solid var(--primary-purple);
     border-radius: 4px;
+    height: 15rem;
 
     padding: 0 0.rem;
   }
@@ -336,7 +357,7 @@ nav ul li {
     opacity: 0;
     background: var(--primary-black);
     width: 15rem;
-    height: 8rem;
+    height: 15rem;
     top: 0;
     border: 1px solid var(--primary-purple);
     border-radius: 4px;
@@ -356,7 +377,7 @@ nav ul li {
     position: absolute;
     opacity: 0;
     margin-left: -8rem;
-    margin-top: 3.6rem;
+    margin-top: 7.2rem;
     color: var(--secondary-purple);
     font-size: 1.5rem;
   }
@@ -371,15 +392,17 @@ nav ul li {
   .popupbox-wrapper {
   
     background-color: var(--tertiary-black) !important;
-    color: var(--primary-white);
+    color: rgba(var(--primary-white),0.96) !important;
   }
   
 
 /*------------ OVERFLOW BOX ------------------*/
 .portfolio-image-popupbox {
-  width: 45rem;
+  width: 50%;
   padding: 0 0.5rem;
-  margin: 7%;
+  margin-left: 25%;
+
+  height: 100%;
   
 
 
@@ -399,12 +422,12 @@ nav ul li {
 
 .hyper-link b{
   cursor: pointer; 
-  color: var(--primary-white) !important;
+  color: rgba(var(--primary-white),0.96) !important;
 }
 
 
 .hyper-link:hover b{
-  color: var(--primary-white) !important;
+  color: rgba(var(--primary-white),0.96) !important;
 }
 
 /*********************************MEDIA********************************************/
@@ -422,7 +445,7 @@ nav ul li {
 
 @media(max-height: 570px){
   .popupbox-wrapper{
-    height: 100% !important;
+    height: 75% !important;
   }
 
   .portfolio-image-popupbox{
@@ -436,12 +459,12 @@ nav ul li {
 
 @media(max-height: 280px){
   .popupbox-wrapper{
-    height: 90% !important;
+    height: 75% !important;
   }
 
   .portfolio-image-popupbox{
 
-    width: 30%;
+    width: 50%;
     margin: 0;
 
   }

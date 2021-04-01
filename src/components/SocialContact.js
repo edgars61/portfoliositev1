@@ -1,14 +1,10 @@
 import React from "react";
 import Typed from "react-typed";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
-import Pulse from 'react-reveal/Pulse';
-import Spin from 'react-reveal/Spin';
-import Jump from 'react-reveal/Jump';
-import Fade from 'react-reveal/Fade';
+
 import RubberBand from 'react-reveal/RubberBand';
 
 

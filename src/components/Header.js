@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 const Header = () => {
-  let greeting = " <h1>Good morning!,</h1><h1> My name is Edgar Santana</h1> I'm a web developer";
+  let greeting = " <h1>Hello,</h1><h1> My name is Edgar Santana</h1> I'm a web developer";
   return (
     <div className="header-wraper">
       <div className="main-info">
@@ -18,7 +18,7 @@ const Header = () => {
         <h2><Typed
           className="typed-text"
           strings={[greeting]}
-          typeSpeed={35}
+          typeSpeed={25}
   
           
         />
