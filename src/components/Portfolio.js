@@ -1,9 +1,11 @@
 import React from "react";
 import netflix from "../images/netflix.png";
-import netflix2 from "../images/mockup6.png";
-import cityGuide from "../images/city-guide-app.png";
-import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+import netflix2 from "../images/AskAway.PNG";
+import cityGuide from "../images/mockuper (13).png";
+import portfolio from "../images/portfoliositedesktop.PNG";
+import personalPortfolio from "../images/iphoneXCapute_iphone12black_portrait.png";
+import paperTradingApp from "../images/papertradingapp.png";
+import todoApp from "..//images/TodoApp.PNG"
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -16,13 +18,16 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const Pofrfolio = () => {
 
-  // Netflix
-  const openPopupboxNetflix = () => {
+  //*******************************************FORUM APPLICATION ****************************************************************************** */
+  const openPopupboxForum = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={netflix2} alt="Netflix Clone Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+      
+        <img className="portfolio-image-popupbox" src={netflix2} alt="Forum Application..." /><br/>
+        <div className="project-text">
+        <p>This application allows users login or register. Once they do so they are able to post, browse, and comment on forums.</p>
          <a className="hyper-link" onClick={() => window.open("https://github.com/edgars61/Question-and-Answer-Forum")}><b>GitHub </b><FontAwesomeIcon icon={faChevronRight}/> </a>
+         </div>
       </>
     )
     PopupboxManager.open({ content });
@@ -35,8 +40,8 @@ const Pofrfolio = () => {
         },
       });
   }
-
-  const popupboxConfigNetflix = {
+   
+  const popupboxConfigPaperTrading = {
     titleBar: {
       enable: true,
       text: "Forum Application"
@@ -44,14 +49,16 @@ const Pofrfolio = () => {
     fadeIn: true,
     fadeInSpeed: 500
   }
-
+//*******************************************PAPER TRADING APPLICATION ****************************************************************************** */
   // City Guide App
   const openPopupboxCityGuide = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={cityGuide} alt="Netflix Clone Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+        <img className="portfolio-image-popupbox" src={paperTradingApp} alt="Netflix Clone Project..." />
+        <div className="project-text">
+        <p>A paper trading application created with Django. Users are able to search for and purchase or sell stocks.</p>
          <a className="hyper-link" onClick={() => window.open("https://github.com/edgars61/Question-and-Answer-Forum")}><b>GitHub </b><FontAwesomeIcon icon={faChevronRight}/> </a>
+         </div>
       </>
     )
     PopupboxManager.open({ content });
@@ -59,7 +66,7 @@ const Pofrfolio = () => {
         content,
         config: {
           titleBar: {
-            text: "Forum Application",
+            text: "Paper Trading Application",
           },
         },
       });
@@ -74,15 +81,16 @@ const Pofrfolio = () => {
     fadeInSpeed: 500
   }
 
-  // Portfolio Project
+  // ****************************************TO-DO Application
   const openPopupboxPortfolio = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+        <img className="portfolio-image-popupbox" src={todoApp} alt="Portfolio Project..." />
+        <div className="project-text">
+        <p>A To-Do Application created with React and Redux. Users can add, mark as complete and remove tasks.</p>
+         <a className="hyper-link" onClick={() => window.open("https://github.com/edgars61/Todo-App")}><b>GitHub </b><FontAwesomeIcon icon={faChevronRight}/> </a>
+         <a className="hyper-link" onClick={() => window.open("https://mytodoapp-b1cab.firebaseapp.com")}><b>Live Demo </b><FontAwesomeIcon icon={faChevronRight}/> </a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
@@ -90,7 +98,7 @@ const Pofrfolio = () => {
         content,
         config: {
           titleBar: {
-            text: "Portfolio React and Material UI project",
+            text: "To-Do Application",
           },
         },
       });
@@ -100,7 +108,7 @@ const Pofrfolio = () => {
   const popupboxConfigPortfolio = {
     titleBar: {
       enable: true,
-      text: "Poftfolio React and Material UI project."
+      text: "To-Do Application"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -110,11 +118,12 @@ const Pofrfolio = () => {
   const openPopupboxTaskManager = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={taskManager} alt="Task Manager React and Redux Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/", "_blank")}>https://react-redux-task-manager.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/task-manager", "_blank")}>https://github.com/8020Coding/task-manager</a>
+        <img className="portfolio-image-popupbox" src={portfolio} alt="Task Manager React and Redux Project..." />
+        <div className="project-text">
+        <p>First iteration of my personal website. Created with HTML, CSS, JavaScript and React.js</p>
+         <a className="hyper-link" onClick={() => window.open("https://github.com/edgars61/portfoliositev1")}><b>GitHub </b><FontAwesomeIcon icon={faChevronRight}/> </a>
+         <a className="hyper-link" onClick={() => window.open("https://edgarsantana.dev")}><b>Live Demo </b><FontAwesomeIcon icon={faChevronRight}/> </a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
@@ -122,7 +131,7 @@ const Pofrfolio = () => {
         content,
         config: {
           titleBar: {
-            text: "Redux",
+            text: "edgarsantana.dev Personal Website",
           },
         },
       });
@@ -131,7 +140,7 @@ const Pofrfolio = () => {
   const popupboxConfigTaskManager = {
     titleBar: {
       enable: true,
-      text: "Redux"
+      text: "edgarsantana.dev Personal Website"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -143,32 +152,32 @@ const Pofrfolio = () => {
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
-          <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
+          <div className="portfolio-image-box" onClick={openPopupboxForum}>
             <img className="portfolio-image" src={netflix2} alt="Netflix Clone Project..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
-            <img className="portfolio-image" src={cityGuide} alt="City Guide Project..." />
+            <img className="portfolio-image cityGuideImage" src={paperTradingApp} alt="City Guide Project..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
-            <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
+            <img className="portfolio-image" src={todoApp} alt="Portfolio React and Material UI Project..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
-            <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+            <img className="portfolio-image" src={portfolio} alt="Task Manager React and Redux Project..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
         </div>
       </div>
-      <PopupboxContainer {...popupboxConfigNetflix} />
+      <PopupboxContainer {...popupboxConfigPaperTrading} />
       <PopupboxContainer {...popupboxConfigCityGuide} />
       <PopupboxContainer {...popupboxConfigPortfolio} />
       <PopupboxContainer {...popupboxConfigTaskManager} />

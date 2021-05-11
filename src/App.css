@@ -20,6 +20,18 @@ background-color: var(--primary-black) !important;
 }
 
 
+.LoadingScreen{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: orange;
+  margin: 0 auto;
+  
+}
+
 /************************ NAVBAR *********************************/
 
 nav {
@@ -95,6 +107,17 @@ nav ul li {
   height: 90vh;
   color: rgba(var(--primary-white),0.96) !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .header-wraper {
+    height: 70vh;
+    background-size: cover;
+    background-position: center bottom;
+ 
+     
+  }
+}
+
 
 .main-info {
   display: flex;
@@ -180,6 +203,10 @@ nav ul li {
 
 
 /*********************************************ABOUT ME *************************************************************/
+.aboutMeP{
+  text-align: left;
+  color: rgba(var(--primary-white),0.96);
+}
 .aboutMe{
   background-color: var(--secondary-black);
 }
@@ -203,6 +230,8 @@ nav ul li {
   color: rgba(var(--primary-white),0.96);
  
   text-transform: uppercase;
+  text-align: center;
+ 
 
 }
 @media(max-width: 468px){
@@ -210,6 +239,25 @@ nav ul li {
   width: 10rem;}
 
 
+}
+
+.downloadResumeButton{
+  border: 1px solid var(--primary-purple);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: rgba(var(--primary-white),0.96) !important;
+  border-radius: 8px;
+  margin: auto !important;
+  margin-top: 5% !important;
+
+
+}
+.downloadResumeButton:hover{
+  text-decoration: none;
+  background-color: var(--primary-purple);
+  color: var(--primary-white);
+  transition:  .2s ease-in-out;
 }
 
 /*************************************SERVICES***************************/
@@ -261,6 +309,10 @@ nav ul li {
   color: rgba(var(--primary-white),0.67) !important;
   
 }
+.languagesList{
+  text-align: left !important;
+  color: rgba(var(--primary-white),0.67) !important;
+}
 
 
 
@@ -276,7 +328,7 @@ nav ul li {
   
   z-index: 3 !important;
   position: fixed;
-  top: 15%;
+  top: 35%;
   color: rgba(var(--primary-white),0.96) !important;
   animation: fadeIn 0s 0.6s !important;
 }
@@ -339,10 +391,11 @@ nav ul li {
     width: 15rem;
     border: 1px solid var(--primary-purple);
     border-radius: 4px;
-    height: 15rem;
+    height: 8rem;
 
     padding: 0 0.rem;
   }
+ 
 
   .portfolio-image-box{
     position: relative;
@@ -350,6 +403,22 @@ nav ul li {
 
     
   }
+  .project-text{
+    text-align: center;
+
+  }
+  .project-text p{
+    margin-top: 16px;
+  }
+  .stackUsed{
+    padding: 5px;
+    border:solid;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-bottom:16px;
+  
+  }
+ 
 
   /******************************OVERFLOW********************************************************************/
   .overflow{
@@ -357,7 +426,7 @@ nav ul li {
     opacity: 0;
     background: var(--primary-black);
     width: 15rem;
-    height: 15rem;
+    height: 8rem;
     top: 0;
     border: 1px solid var(--primary-purple);
     border-radius: 4px;
@@ -377,7 +446,7 @@ nav ul li {
     position: absolute;
     opacity: 0;
     margin-left: -8rem;
-    margin-top: 7.2rem;
+    margin-top: 3.6rem;
     color: var(--secondary-purple);
     font-size: 1.5rem;
   }
@@ -403,6 +472,7 @@ nav ul li {
   margin-left: 25%;
 
   height: 100%;
+  margin-bottom:16px;
   
 
 
@@ -470,3 +540,56 @@ nav ul li {
   }
 
 }
+
+/*********************FOOTER*********************************/
+.footer{
+  height: 35vh;
+
+  
+}
+.footer h4{
+  color: rgba(var(--primary-white),0.96) !important;
+  font-weight: bold;
+}
+.footer a,p{
+  color: rgba(var(--primary-white),0.67) !important;
+
+}
+
+.footer-container{
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    padding-bottom: 5rem;
+
+ 
+     
+  }
+  .footerColumn{
+    padding-bottom: 1.5rem;
+  }
+}
+.footerSection{
+  margin-bottom: 0.45rem;
+}
+
+.linkedin{
+  color: rgba(var(--primary-white),0.67) !important;
+  fill: white !important;
+}
+.linkedin:hover{
+  color: rgba(var(--primary-white),0.96) !important;
+
+}
+
+
+.github{
+  color: rgba(var(--primary-white),0.67) !important;
+  
+}
+.github:hover{
+  color: rgba(var(--primary-white),0.96) !important;
+}
+

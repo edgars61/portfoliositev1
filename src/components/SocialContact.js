@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';

@@ -1,15 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faLaptopCode, faFileCode, faCogs } from "@fortawesome/free-solid-svg-icons";
-import FadeIn from 'react-fade-in';
-import Zoom from 'react-reveal/Zoom';
-import Pulse from 'react-reveal/Pulse';
+import { Fade } from "react-awesome-reveal";
+
 
 
 const Skills = () => {
   return (
-    <div className="services container-fluid">
+    <div id="mySkills" className="services container-fluid">
+      <Fade cascade direction="left" triggerOnce>
       <h1 className="py-5">Skills</h1>
       
       <div className="container">
@@ -18,7 +17,29 @@ const Skills = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
               <h3>Languages</h3>
-              <p>Python, Java, JavaScript, CSS/Sass, HTML</p>
+              <div className="container languagesList">
+                <div className="row">
+                  <div className ="col-lg-6 col-md-6 col-6">
+                  <ul>
+  <li>Python</li>
+  <li>Java</li>
+  <li>JavaScript</li>
+</ul>
+
+
+                  </div>
+
+                  <div className ="col-lg-6 col-6 col-md-6">
+                  <ul>
+  <li>CSS/Sass</li>
+  <li>HTML</li>
+  <li>SQL</li>
+</ul>
+                    
+                  </div>
+                </div>
+              </div>
+            
             </div>
           </div>
           {/* - */}
@@ -27,8 +48,30 @@ const Skills = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faLaptopCode} size="2x" /></div>
 
               <h3>Front-End</h3>
-              <p>jQuery, React.js, Redux, Bootstrap 4, UI/UX, Mobile Responsive design, AJAX
-</p>
+              <div className="container languagesList">
+                <div className="row">
+                  <div className ="col-lg-6 col-md-6 col-6">
+                  <ul>
+  <li>jQuery</li>
+  <li>React.js</li>
+  <li>Redux</li>
+  <li>AJAX</li>
+</ul>
+
+
+                  </div>
+
+                  <div className ="col-lg-6 col-6 col-md-6">
+                  <ul>
+  <li>Bootstrap</li>
+  <li>Mobile Responsive Design</li>
+ 
+</ul>
+                    
+                  </div>
+                </div>
+              </div>
+           
             </div>
           </div>
 
@@ -37,13 +80,37 @@ const Skills = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faCogs} size="2x" /></div>
 
               <h3>Back-End</h3>
-              <p>Django, Node.js, Express, MongoDB Atlas, Kafka, SQLite, MySQL PostgreSQL, Web API, HTTP Requests</p>
+              <div className="container languagesList">
+                <div className="row">
+                  <div className ="col-lg-6 col-md-6 col-6">
+                  <ul>
+  <li>Django</li>
+  <li>Node.js</li>
+  <li>Express</li>
+  <li>SQLite</li>
+</ul>
+
+
+                  </div>
+
+                  <div className ="col-lg-6 col-6 col-md-6">
+                  <ul>
+  <li>MySQL</li>
+  <li>Web API</li>
+  <li>HTTP Requests</li>
+ 
+</ul>
+                    
+                  </div>
+                </div>
+              </div>
+             
             </div>
           </div>
          
         </div>
       </div>
-      
+      </Fade>
     </div>
 
   )

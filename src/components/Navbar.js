@@ -55,16 +55,16 @@ const MyComponent = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link" href="#myHeader">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">About me</a>
+        <a className="nav-link" href="#aboutMe">About me</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Skills</a>
+        <a className="nav-link" href="#mySkills">Skills</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Portfolio</a>
+        <a className="nav-link" href="#portfolio">Portfolio</a>
       </li>
     </ul>
 
@@ -80,7 +80,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="navbar navbar-custom navbar-expand-lg">
+    <nav id="myHeader" className="navbar navbar-custom navbar-expand-lg">
       <div className="container">
 
         <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>

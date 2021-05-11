@@ -24,7 +24,7 @@ const Header = () => {
         />
         </h2>
       
-        <a href="#" className="btn-main-offer">contact me</a>
+        <a href="mailto:edgarsantana.62a@gmail.com" className="btn-main-offer">contact me</a>
         
       </div>
      
